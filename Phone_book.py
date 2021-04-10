@@ -22,6 +22,8 @@ def load_phone_book():
     except (FileExistsError, FileNotFoundError):
         return []
 
+# ---- main code -------------------------------------------------------------
+
 if __name__ == '__main__':
     numbers_list = load_phone_book()
     while True:
